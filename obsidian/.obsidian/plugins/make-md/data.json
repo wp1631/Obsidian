@@ -37,7 +37,15 @@
     "//Neuroscience",
     "//Neuroscience/Neuroscience/Neuroscience",
     "//Spaces",
-    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023"
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Spaces",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Spaces",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Ideas",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Geometry",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/General concepts",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023/Neuroscience/Neuroscience/Journal Club 2023/images"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -63,7 +71,9 @@
     "/",
     "spaces://$tags"
   ],
-  "rootSpaces": [],
+  "rootSpaces": [
+    "Neuroscience/Neuroscience/Journal Club 2023/images"
+  ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
   "fmKeyBanner": "banner",
