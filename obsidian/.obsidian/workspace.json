@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "6e73195e90a66cb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8451cd5440a89e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41aaede72cda4e50",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "85db840594091800",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuroscience/Neuroscience/Journal Club 2023/Reverse-engineering the cortical architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ecd1237d14775bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecfc64d2f4d8d064",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d01a3547da96b19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d7cfbb53aac7c9c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab34f1a5eb371465",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "bf47ddabce79efb2",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff1a930cfad9a701",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b852f9080dad1dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cae7e5b9424b12fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Neuroscience/Neuroscience/Journal Club 2023/Reverse-engineering the cortical architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aaaa0d0e81f87f2d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Neuroscience/Neuroscience/Journal Club 2023/Reverse-engineering the cortical architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d879a515fcb12261",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5e1e203a0ac63f19",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Neuroscience/Neuroscience/Journal Club 2023/Reverse-engineering the cortical architecture.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "85db840594091800",
+  "lastOpenFiles": [
+    "Spaces/Home",
+    "Untitled.canvas",
+    "Spaces"
+  ]
+}

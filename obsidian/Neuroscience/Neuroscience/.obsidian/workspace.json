@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "4b336083bc2a4aa3",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f2e3e650bc2f380",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fe7a001f24dad46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal Club 2023/Reverse-engineering the cortical architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "967bac11fb1b8a62",
+    "type": "split",
+    "children": [
+      {
+        "id": "d679a7d04467a466",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe9dd51a8216bd35",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3654065ff3f59672",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "caaf88127ba17e1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "25880e278f9e85c7",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2a7aa2aa579c0269",
+    "type": "split",
+    "children": [
+      {
+        "id": "205c0746919c17cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03fdcd7b1bf96f84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Journal Club 2023/Reverse-engineering the cortical architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3b4c830c251ab83c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Journal Club 2023/Reverse-engineering the cortical architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a37e123f415df75e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "78531c7072bef1dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Journal Club 2023/Reverse-engineering the cortical architecture.md"
+              }
+            }
+          },
+          {
+            "id": "da4739c731d77524",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c82d7734eb01aa2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "1fe7a001f24dad46",
+  "lastOpenFiles": [
+    "Journal Club 2023/Judgment under uncertainty.md",
+    "Journal Club 2023/Reverse-engineering the cortical architecture.md",
+    "Spaces",
+    "Thought on Availability Biases.md",
+    "2023-10-31.md",
+    "Spaces/Home/Home.md",
+    "General concepts",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Spaces/Home",
+    "Geometry",
+    "Ideas",
+    "General concepts/Neuroscience.md",
+    "General concepts/mental operations.md",
+    "General concepts/Similarity.md",
+    "Journal Club 2023"
+  ]
+}
