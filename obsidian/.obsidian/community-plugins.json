@@ -5,10 +5,12 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-emoji-toolbar",
   "omnisearch",
-  "obsidian-outliner",
   "tag-wrangler",
   "mermaid-tools",
   "make-md",
   "folder-notes",
-  "obsidian-importer"
+  "obsidian-importer",
+  "obsidian-plugin-toc",
+  "dbfolder",
+  "obsidian-outliner"
 ]

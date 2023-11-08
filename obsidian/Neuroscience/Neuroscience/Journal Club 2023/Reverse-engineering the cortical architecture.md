@@ -10,6 +10,7 @@ tags:
   - multimodal
   - learning
 ---
+
 # Main Ideas
 This papers discuss a reverse engineering approach to find [[neurocomputational building block]] that support [[controlled semantic cognition]] by systematically varying the structure of computational model and assess the **functional consequences**.
 
@@ -95,6 +96,26 @@ The models were fully recurrent neural networks with activity unfolding over tim
 ### Data
 The data was created as activation pattern for 16 items in **three abstract modalities**. Designed to capture central challenge of conceptual abstraction. Mean that conceptual structure was latent but strongly different from apparent structure in any one of modalities.
 
+![[Screenshot 2566-11-08 at 06.37.23.png]]
+16 Concepts - 12 features
+- **A** Covariation structure
+	- Black/White pixels indicate the existences of covary signal
+	- Red boxes indicate features that strongly **covary** across modals
+	- Orange, Yellow, Green boxes indicate features with slightly strong, medium and loose **covariant** across modalities.
+- **B \[Phase 1\]** Context independent similarity structure matrix across all modalities - 16 concept
+	- This should indicate context-insensitivity similarity structure that should be recovered from [[abstraction]]
+- **C \[Phase 2\]** Context-sensitive similarity structure that should be constructed from *realization* functionality - 144 input/output patterns
+	- 144 from 16 concepts with 9 tasks (context)
+	- Right - similarity based on *control signal*
+	- Middle - from B
+	- Left - similarity from context-independent signal and context signal
+		- This should be in form of some convolution since the *context* is meant to filter/activate only a specific output
+
+> [!Question]
+> From distance structure, we can actually estimate the embedding dimension of these feature points using some assumption about the coverage of points/ density at higher dimension. Could it be generated from that?
+
+![[noise_corr.png]]
+The context signals correlation pattern is **imitation from noise/uniform distribution over space of features combination** (but with structural generation 🫠 in MATLAB used by authors exactly what I guessed) 
 ### Training Procedures
 #### Initial phase
 - Receive input from a single modality
@@ -126,12 +147,85 @@ Hidden layer's activation patterns are correlated with the true conceptual simil
 
 ![![Neuroscience/Neuroscience/Journal Club 2023/#^Table2]]
 ## Results
-### Phase 1: Conceptual representation without control
+### Phase 1: Conceptual representation without control signal $\iff$ context 
+Authors found differences in conceptual abstraction scores. 
+#### Findings
+##### Conceptual Score
+$$\text{Spokes-Only} < \text{Bimodal Hubs} < \text{Shallow Multimodal Hub} \sim \text{Deep Multimodal Hub} > \text{Convergent Hubs}$$
+1. Better with hub
+2. Better with multimodal hub
+3. Depth found no significant effect
+4. Hierarchical convergence
+5. Convergence hub had a significant detrimental effect 
+	1. $\text{Deep Multimodal Hub} > \text{Convergent Hubs}$
+	2. $\text{Multimodal Hub + Shortcut} > \text{Convergent Hubs + Shortcut}$
+6. Shortcut helps
+	1. In both multimodal hub and convergent hub
+> [!Important]
+> Multimodal Hub + Shortcut performed best.
 
+![[Screenshot 2566-11-08 at 00.05.44.png]]
 
+##### Learning
+![[Screenshot 2566-11-08 at 00.03.42.png]]
+- Shortcut alleviate the score while also speed up the learning
+- Multimodal presence improve learning greatly
+- Depth did not significantly improve anything
+
+### Phase 2: Controlled semantic cognition
+This addressed full challenge of controlled semantic cognition.
+#### Findings
+##### Conceptual abstraction score
+![[Screenshot 2566-11-08 at 08.38.39.png]]
+
+##### Learning
+![[Screenshot 2566-11-08 at 08.42.10.png]]
+
+##### Context sensitivity
+In the experiment, locations of control signals induced as context affects the model differently.
+![[Screenshot 2566-11-08 at 17.16.42.png]]
+
+### Phase 3: Accounting for empirical phenomena with the reverse-engineered model
+This section try to relate the proposed model with existing evidence
+- \[Physical/Anatomical\] How does the structure accord with existing anatomical evidence of semantic network? 
+	- From phase 1 and phase 2
+		- Controlled semantic cognition is best achieved within architecture employing a single, deep, multimodal hub and shortcut connections.
+	- Proposes
+		- Sparse long-range shortcut, addition to region-to-region connection 
+		  ```mermaid
+		  graph LR;
+		  A[Posterior modality-specific region] --> B[Multimodal hub]
+		  ```
+			- This has some evidences in white matter connection
+			- Connectivity between anterior and posterior subsections of the [[fusiform gyrus]]
+		- Semantic control should connect with semantic regions primarily via more posterior regions **distal** to the anterior temporal hub
+			- No definitive evidence yet
+			- Core [[ventral anterior temporal lobe]] hub **does** have few connections to distal regions (from references)
+- \[Functional\] Does the model explain behavioral/neuronal phenomena?
+	- Distinct neuropsychological syndromes
+		- Semantic Aphasia characterized by loss ability to match the context to semantic concept
+		- Semantic dementia represented by loss of representation in brain (loss of concept)
+			- This only capture some of the expected result, but trends were observed in real phenotype![[Screenshot 2566-11-08 at 12.25.15.png]]
+```mermaid
+graph TD;
+  A[Damage] --> B[anterior temporal hub]
+  A --> C[temporoparietal control regions]
+  B --> D[Semantic dementia SD]
+  C --> E[Semantic aphasia SA]
+  D --> F[Degraded representation]
+  F --> G[Remove connections to/from \n multimodal hub]
+  E --> H[Disordered control]
+  H --> I[Adding noise to control unit]
+```
+
+- Functional brain imaging
+	- Classical neuroimaging experiments
+		- Participants viewed stimulus (word or picture) and retrieves color or its action
+		- Identical stimulus have different functional activation when associated with different tasks
+		- Result is <br>![[Screenshot 2566-11-08 at 12.04.52.png]]
+		- Differences were found in only spokes and hidden layer 1
 # Strong point
-
+- Converging evidences
 # Weak point
-- Magnitude of statistical finding should not be addressed since it contains no meaning in $F$ score. This is not good to infer the intensity of diversity in resulting conceptual abstraction scores.
+- Magnitude of statistical finding should not be addressed since it contains no meaning in $F$ score. This is not good to infer the intensity of diversity in resulting conceptual abstraction scores. Even Hedge's $g$ would not make this better. 
 ![[Screenshot 2566-11-07 at 20.png]]
-

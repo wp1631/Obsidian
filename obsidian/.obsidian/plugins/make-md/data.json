@@ -16,7 +16,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "/",
+  "activeView": "Spaces/Home",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -45,6 +45,7 @@
     "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Geometry",
     "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/General concepts",
     "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023",
+    "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023/Neuroscience/Neuroscience/Journal Club 2023/images",
     "//Neuroscience/Neuroscience/Neuroscience/Neuroscience/Neuroscience/Journal Club 2023/Neuroscience/Neuroscience/Journal Club 2023/images"
   ],
   "expandFolderOnClick": true,
