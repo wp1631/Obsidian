@@ -1,0 +1,1 @@
+Group of population with distributed tuned neurons across entirely possible [[stimulus]] variable can generally give distinct (or [inform](information)) [[neural response]] patterns to one particular value of stimulus variable. 

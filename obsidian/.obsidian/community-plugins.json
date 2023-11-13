@@ -8,9 +8,11 @@
   "tag-wrangler",
   "mermaid-tools",
   "make-md",
-  "folder-notes",
   "obsidian-importer",
   "obsidian-plugin-toc",
   "dbfolder",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "symbols-prettifier",
+  "obsidian-tikzjax",
+  "obsidian-markmind"
 ]

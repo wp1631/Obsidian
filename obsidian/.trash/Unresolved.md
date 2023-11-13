@@ -1,0 +1,1 @@
+- non-Gaussian stimulus dependent noie
